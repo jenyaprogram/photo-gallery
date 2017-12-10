@@ -34,6 +34,10 @@
 <script src="js/jquery.quicksand.js"></script>
 <script src="js/jquery.custom.js"></script>
 
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
 </head>
 
 <body>
@@ -53,40 +57,26 @@
 
         <!-- Main Navigation
         ================================================== -->
-        <div class="span7 navigation">
+				<div class="span7 navigation">
             <div class="navbar hidden-phone">
 
             <ul class="nav">
 							<li>
-									<a href="index-slider.htm">Home</a>
-							</li>
-           <li><a href="features.htm">Features</a></li>
+	                <a href="index-slider.htm">Главная страница</a>
+	            </li>
+           <li><a href="gallery-photo.htm">Фотографии</a></li>
 
-             <li class="dropdown active">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="gallery-4col.htm">Gallery <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="gallery-3col.htm">Gallery 3 Column</a></li>
-                    <li><a href="gallery-4col.htm">Gallery 4 Column</a></li>
-                    <li><a href="gallery-6col.htm">Gallery 6 Column</a></li>
-                    <li><a href="gallery-4col-circle.htm">Gallery 4 Round</a></li>
-                    <li><a href="gallery-single.htm">Gallery Single</a></li>
-                </ul>
+             <li>
+                <a  href="gallery-3col.htm">Фотографы</a>
              </li>
-             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Blog <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="blog-style1.htm">Blog Style 1</a></li>
-                    <li><a href="blog-style2.htm">Blog Style 2</a></li>
-                    <li><a href="blog-style3.htm">Blog Style 3</a></li>
-                    <li><a href="blog-style4.htm">Blog Style 4</a></li>
-                    <li><a href="blog-single.htm">Blog Single</a></li>
-                </ul>
+
+             <li>
+                <a href="blog-style1.htm">Блог</a>
              </li>
-             <li><a href="page-contact.htm">Contact</a></li>
+
             </ul>
 
             </div>
-
             <!-- Mobile Nav
             ================================================== -->
             <form action="#" id="mobile-nav" class="visible-phone">
@@ -134,23 +124,18 @@
 
             <div class="row">
                 <div class="span6">
-                    <img src="img/gallery/gallery-img-1-full.jpg" class="align-left thumbnail" alt="image">
+                    <img src="img/gallery/annie_leibovitz.jpg" class="align-left thumbnail" alt="image">
                 </div>
                 <div class="span6">
-                    <h2>Custom Illustration</h2>
+                    <h2>Энни Лейбовиц</h2>
                     <p class="lead">For an international ad campaign. Nulla iaculis mattis lorem, quis gravida nunc iaculis ac. Proin tristique tellus in est vulputate luctus</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis mattis lorem, quis gravida nunc iaculis ac. Proin tristique tellus in est vulputate luctus fermentum ipsum molestie. Vivamus tincidunt sem eu magna varius elementum. Maecenas felis tellus, fermentum vitae laoreet vitae, volutpat et urna. Nulla faucibus ligula eget ante varius ac euismod odio placerat. Nam sit amet felis non lorem faucibus rhoncus vitae id dui.</p>
 
                     <ul class="project-info">
-                        <li><h6>Date:</h6> 09/12/15</li>
-                        <li><h6>Client:</h6> John Doe, Inc.</li>
-                        <li><h6>Services:</h6> Design, Illustration</li>
-                        <li><h6>Art Director:</h6> Jane Doe</li>
-                        <li><h6>Designer:</h6> Jimmy Doe</li>
-                    </ul>
+                        <li><h6>Дата рождения:</h6> 02.10.1949</li>
+                        <li><h6>Страна:</h6> США</li>
 
-                    <button class="btn btn-inverse pull-left" type="button">Visit Website</button>
-                    <a href="#" class="pull-right"><i class="icon-arrow-left"></i>Back to Gallery</a>
+                    </ul>
                 </div>
             </div>
 
@@ -159,6 +144,20 @@
     </div><!-- End container row -->
 
     </div> <!-- End Container -->
+
+		<div class="container">
+			<div class="span12">
+				<div class="row">
+					<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-maxheight="400" data-thumbheight="180" data-thumbwidth="180">
+						<img src="img/gallery/gallery-img-61-3col.jpg">
+						<img src="img/gallery/gallery-img-62-3col.jpg">
+						<img src="img/gallery/gallery-img-63-3col.jpg">
+						<img src="img/gallery/gallery-img-64-3col.jpg">
+						<img src="img/gallery/gallery-img-65-3col.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
 
     <!-- Footer Area
         ================================================== -->
