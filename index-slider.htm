@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<html lang ="RU">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Фото-галерея</title>
+<title>Piccolo Theme</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<mete name="description">
-<meta name="keywords" content="photo, photographer, still-life, nature"
+
 <!-- CSS
 ================================================== -->
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -91,32 +89,22 @@ $(document).ready(function () {
             <div class="navbar hidden-phone">
 
             <ul class="nav">
-
-            <li>
-              <a href="index-slider.htm">Home</a>
-            </li>
-           <li><a href="features.htm">Features</a></li>
-
-                <li><a href="gallery-3col.htm">Фотографы</a>
+              <li>
+                  <a href="index-slider.htm">Главная страница</a>
               </li>
-              <li class="dropdown">
-                 <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.htm">Blog</a>
-                 <ul class="dropdown-menu">
-                     <li><a href="blog-style1.htm">Blog Style 1</a></li>
-                     <li><a href="blog-style2.htm">Blog Style 2</a></li>
-                     <li><a href="blog-style3.htm">Blog Style 3</a></li>
-                     <li><a href="blog-style4.htm">Blog Style 4</a></li>
-                     <li><a href="blog-single.htm">Blog Single</a></li>
-                 </ul>
-              </li>
-              <li><a href="page-contact.htm">Contact</a></li>
-              </ul>
+           <li><a href="gallery-photo.htm">Фотографии</a></li>
 
+             <li>
+                <a  href="gallery-3col.htm">Фотографы</a>
+             </li>
 
+             <li>
+                <a href="blog-style1.htm">Блог</a>
+             </li>
 
+            </ul>
 
             </div>
-
             <!-- Mobile Nav
             ================================================== -->
             <form action="#" id="mobile-nav" class="visible-phone">
@@ -165,7 +153,9 @@ $(document).ready(function () {
                 <li><a href="gallery-single.htm"><img src="img/gallery/slider-img-3.jpg" alt="slider" /></a></li>
                 <li><a href="gallery-single.htm"><img src="img/gallery/slider-img-4.jpg" alt="slider" /></a></li>
               </ul>
-          </div>
+            </div>
+
+
 
     </div><!-- End Headline -->
 
@@ -173,6 +163,13 @@ $(document).ready(function () {
 
     	<!-- Blog Preview
         ================================================== -->
+    	<div class="span6">
+
+            <h5 class="title-bg">From the Blog
+                <small>All the latest news</small>
+                <button id="btn-blog-next" class="btn btn-inverse btn-mini" type="button">&raquo;</button>
+                <button id="btn-blog-prev" class="btn btn-inverse btn-mini" type="button">&laquo;</button>
+            </h5>
 
         <div id="blogCarousel" class="carousel slide ">
 
@@ -352,218 +349,4 @@ $(document).ready(function () {
     <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
 
 </body>
-</html><div class="row"><!-- Begin Bottom Section -->
-
-    	<!-- Blog Preview
-        ================================================== -->
-    	<div class="span6">
-
-            <h5 class="title-bg" style="padding-bottom: 12px;">From the Blog
-                <small>All the latest news</small>
-                <button id="btn-blog-next" class="btn btn-inverse btn-mini" type="button">»</button>
-                <button id="btn-blog-prev" class="btn btn-inverse btn-mini" type="button">«</button>
-            </h5>
-
-        <div id="blogCarousel" class="carousel slide ">
-
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-
-                 <!-- Blog Item 1 -->
-                <div class="active item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">A subject that is beautiful in itself</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-                <!-- Blog Item 2 -->
-                 <div class="item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">A great artist is always before his time</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-                 <!-- Blog Item 3 -->
-                 <div class="item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">Is art everything to anybody?</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-            </div>
-            </div>
-        </div>
-
-        <!-- Client Area
-        ================================================== -->
-        <div class="span6">
-
-            <h5 class="title-bg" style="padding-bottom: 12px;">Recent Clients
-                <small>That love us</small>
-                <button id="btn-client-next" class="btn btn-inverse btn-mini" type="button">»</button>
-                <button id="btn-client-prev" class="btn btn-inverse btn-mini" type="button">«</button>
-            </h5>
-
-            <!-- Client Testimonial Slider-->
-            <div id="clientCarousel" class="carousel slide no-margin">
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-
-                <div class="active item">
-                    <p class="quote-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Morbi blandit ultricies ultrices. Vivamus nec lectus sed orci molestie molestie."<cite>- Client Name, Big Company</cite></p>
-                </div>
-
-                <div class="item">
-                    <p class="quote-text">"Adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Morbi blandit ultricies ultrices. Vivamus nec lectus sed orci molestie molestie."<cite>- Another Client Name, Company Name</cite></p>
-                </div>
-
-                <div class="item">
-                    <p class="quote-text">"Mauris eget tellus sem. Cras sollicitudin sem eu elit aliquam quis condimentum nulla suscipit. Nam sed magna ante. Ut eget suscipit mauris."<cite>- On More Client, The Company</cite></p>
-                </div>
-
-            </div>
-            </div>
-
-            <!-- Client Logo Thumbs-->
-            <ul class="client-logos">
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-1.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-2.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-3.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-4.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-5.png" alt="Client"></a></li>
-            </ul>
-
-        </div>
-
-    </div><div class="row"><!-- Begin Bottom Section -->
-
-    	<!-- Blog Preview
-        ================================================== -->
-    	<div class="span6">
-
-            <h5 class="title-bg" style="padding-bottom: 12px;">From the Blog
-                <small>All the latest news</small>
-                <button id="btn-blog-next" class="btn btn-inverse btn-mini" type="button">»</button>
-                <button id="btn-blog-prev" class="btn btn-inverse btn-mini" type="button">«</button>
-            </h5>
-
-        <div id="blogCarousel" class="carousel slide ">
-
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-
-                 <!-- Blog Item 1 -->
-                <div class="active item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">A subject that is beautiful in itself</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-                <!-- Blog Item 2 -->
-                 <div class="item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">A great artist is always before his time</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-                 <!-- Blog Item 3 -->
-                 <div class="item">
-                    <a href="blog-single.htm"><img src="img/gallery/blog-med-img-1.jpg" alt="" class="align-left blog-thumb-preview"></a>
-                    <div class="post-info clearfix">
-                        <h4><a href="blog-single.htm">Is art everything to anybody?</a></h4>
-                        <ul class="blog-details-preview">
-                            <li><i class="icon-calendar"></i><strong>Posted on:</strong> Sept 4, 2015</li><li>
-                            </li><li><i class="icon-user"></i><strong>Posted by:</strong> <a href="#" title="Link">Admin</a></li><li>
-                            </li><li><i class="icon-comment"></i><strong>Comments:</strong> <a href="#" title="Link">12</a></li><li>
-                            </li><li><i class="icon-tags"></i> <a href="#">photoshop</a>, <a href="#">tutorials</a>, <a href="#">illustration</a>
-                        </li></ul>
-                    </div>
-                    <p class="blog-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Vestibulum lectus tellus, aliquet et iaculis sed, volutpat vel erat. <a href="#">Read more</a></p><p>
-                </p></div>
-
-            </div>
-            </div>
-        </div>
-
-        <!-- Client Area
-        ================================================== -->
-        <div class="span6">
-
-            <h5 class="title-bg" style="padding-bottom: 12px;">Recent Clients
-                <small>That love us</small>
-                <button id="btn-client-next" class="btn btn-inverse btn-mini" type="button">»</button>
-                <button id="btn-client-prev" class="btn btn-inverse btn-mini" type="button">«</button>
-            </h5>
-
-            <!-- Client Testimonial Slider-->
-            <div id="clientCarousel" class="carousel slide no-margin">
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-
-                <div class="active item">
-                    <p class="quote-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Morbi blandit ultricies ultrices. Vivamus nec lectus sed orci molestie molestie."<cite>- Client Name, Big Company</cite></p>
-                </div>
-
-                <div class="item">
-                    <p class="quote-text">"Adipiscing elit. In interdum felis fermentum ipsum molestie sed porttitor ligula rutrum. Morbi blandit ultricies ultrices. Vivamus nec lectus sed orci molestie molestie."<cite>- Another Client Name, Company Name</cite></p>
-                </div>
-
-                <div class="item">
-                    <p class="quote-text">"Mauris eget tellus sem. Cras sollicitudin sem eu elit aliquam quis condimentum nulla suscipit. Nam sed magna ante. Ut eget suscipit mauris."<cite>- On More Client, The Company</cite></p>
-                </div>
-
-            </div>
-            </div>
-
-            <!-- Client Logo Thumbs-->
-            <ul class="client-logos">
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-1.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-2.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-3.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-4.png" alt="Client"></a></li>
-                <li><a href="#" class="client-link"><img src="img/gallery/client-img-5.png" alt="Client"></a></li>
-            </ul>
-
-        </div>
-
-    </div>
+</html>
