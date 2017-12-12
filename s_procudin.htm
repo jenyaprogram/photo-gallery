@@ -34,6 +34,10 @@
 <script src="js/jquery.quicksand.js"></script>
 <script src="js/jquery.custom.js"></script>
 
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
 </head>
 
 <body>
@@ -134,8 +138,6 @@
 
                     </ul>
 
-                    <button class="btn btn-inverse pull-left" type="button">Visit Website</button>
-                    <a href="#" class="pull-right"><i class="icon-arrow-left"></i>Back to Gallery</a>
                 </div>
             </div>
 
@@ -145,23 +147,19 @@
 
     </div> <!-- End Container -->
 
-    <!-- Footer Area
-        ================================================== -->
+		<div class="container">
+			<div class="span12">
 				<div class="row">
-						<div class="span12 footer-col footer-sub">
-								<div class="row no-margin">
-										<div class="span6"><span class="left"></span></div>
-										<div class="span6">
-
-
-												</span>
-										</div>
-								</div>
-						</div>
-            </div><!-- End Sub Footer -->
-
-        </div>
-    </div><!-- End Footer -->
+					<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-maxheight="400" data-thumbheight="180" data-thumbwidth="180" data-width="100%"
+			 data-height="100%">
+						<img src="img/gallery/2plus.jpg">
+						<img src="img/gallery/1plus.jpg">
+						<img src="img/gallery/3plus.jpg">
+						<img src="img/gallery/4plus.jpg">
+						<img src="img/gallery/5plus.jpg">
+					</div>
+				</div>
+			</div>
 
     <!-- Scroll to Top -->
     <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
