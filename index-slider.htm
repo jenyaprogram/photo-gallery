@@ -64,6 +64,10 @@ $(document).ready(function () {
 });
 
 </script>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+</script>
 
 </head>
 
@@ -270,6 +274,27 @@ $(document).ready(function () {
 
     </div> <!-- End Container -->
 
+
+<div class="container">
+
+    <form name="submit-to-google-sheet">
+      <input name="email" type="email" placeholder="Е-маил" required>
+        <input name="Name" type="text" placeholder="ФИО">
+        <input name="Question" type="text" placeholder="Вопрос">
+        <button type="submit">Отправить</button>
+      </form> </div>
+
+    <script>
+      const scriptURL = '<https://script.google.com/macros/u/0/s/AKfycbwAti8M5qK-B9chTQbxsfw0yQYX_9ybYHjl8_dXmr-iiAFwrrGr/exec>'
+      const form = document.forms['https://docs.google.com/spreadsheets/d/1ey7r_Uz2VbtNdMJFoW56cNg-Q7miL_NQqpp4EaNLv5c/edit#gid=0']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
 
     <!-- Scroll to Top -->
     <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
