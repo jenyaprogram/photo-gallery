@@ -208,7 +208,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 @media (min-width: 980px) and (max-width: 1199px) {
 	.gallery-hover-6col {width:140px; height:114px;}
 	.gallery-hover-4col {width:220px; height:180px;}
-	.gallery-hover-3col {width:300px; height:150px;}
+	.gallery-hover-3col {width:300px; height:200px;}
 	.gallery-hover-4col-cir {width:220px; height:220px;}
 	.gallery-hover-4col-cir .gallery-icons {top: 42%; left:29%;}
 
@@ -262,7 +262,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 	.gallery-post-grid {text-align: center}
 	.project-details {margin-left:auto; margin-right: auto;}
 	.gallery {text-align: center; }
-	.gallery-cats { display: none;}
 	li.span2 .project-details {
 	    -o-text-overflow: ellipsis;
 	    text-overflow:    ellipsis;
@@ -345,11 +344,11 @@ a.item-details-link:hover {background: #d8450b url(../img/gallery-item-icons.png
 .gallery-post-grid {margin:0px;}
 .gallery-post-grid li {list-style: none; float: left; margin-bottom: 30px;}
 
-.gallery-cats {margin: 0px 0px 20px 0px;}
+.gallery-cats {margin: -20px 0px 20px 0px;}
 .gallery-cats li{
 	list-style: none;
 	float: left;
-	padding: 0px 10px;
+	padding: 0px 9px;
 	border-left: 1px dotted #a9a9a9;
 }
 .gallery-cats li:first-child{border-left:0px;}
@@ -761,4 +760,8 @@ a.accordion-toggle{background: #f5f5f5;}
 /* Mobile Portrait Size to Tablet Portrait Size */
 @media only screen and  (max-width: 767px) {
 	.the-icons li {float: none; width: 100%; line-height: 25px;}
+}
+
+.feedback-form button {
+	margin-bottom: 10px;
 }
