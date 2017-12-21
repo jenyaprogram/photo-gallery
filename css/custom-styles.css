@@ -478,7 +478,7 @@ ul.post-data li:last-child {padding-right: 0px;}
 	list-style: none;
 	padding: 20px;
 	background: #f8f8f8;
-	margin-bottom: 40px;
+	margin-bottom: none;
 	border-bottom: 1px dotted #a9a9a9;
 	border-top: 1px dotted #a9a9a9;
 }
