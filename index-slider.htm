@@ -164,7 +164,7 @@ $(document).ready(function () {
 
 
 
-<div class="container">
+<div class="container" >
 
     <form name="submit-to-google-sheet" class="feedback-form">
       <input name="email" type="email" placeholder="Е-маил" required>
@@ -180,7 +180,7 @@ $(document).ready(function () {
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', crossDomain: true, body: new FormData(form)})
-          .then(response => console.log('Success!', response))
+          .then(response => console.log(alert('Спасибо'), response))
           .catch(error => console.error('Error!', error.message))
       })
     </script>
