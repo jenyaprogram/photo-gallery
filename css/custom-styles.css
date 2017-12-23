@@ -66,7 +66,7 @@ blockquote.pull-right {border-right: 5px solid #999;}
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	.logo, .navigation {text-align: center;}
-	.row.header {margin-bottom: 30px;}
+	.row.header {margin-bottom: 19px;}
 	.logo h5 {display: block;}
 }
 /* Portrait tablet to landscape and desktop */
@@ -344,7 +344,7 @@ a.item-details-link:hover {background: #d8450b url(../img/gallery-item-icons.png
 .gallery-post-grid {margin:0px;}
 .gallery-post-grid li {list-style: none; float: left; margin-bottom: 30px;}
 
-.gallery-cats {margin: -20px 0px 20px 0px;}
+.gallery-cats {margin: 17px 0px 22px -6px;}
 .gallery-cats li{
 	list-style: none;
 	float: left;
@@ -641,7 +641,7 @@ a.forrst:hover {background-position: -208px -47px;}
 /**************************************
 / MISC
 **************************************/
-.row {margin-bottom:40px;}
+.row {margin-bottom:13px;}
 .sub-row30 {margin-bottom:30px;}
 .sub-row20 {margin-bottom:20px;}
 .no-margin {margin-bottom:0px;}
